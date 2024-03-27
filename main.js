@@ -36,7 +36,6 @@ function startMainJs() {
 
 wifi.getCurrentConnections((error, currentConnections) => {
     if (error) {
-        startMainJs();
         return;
     }
     currentConnections[0].bssid === 'UNIMATER' ? startMainJs() : console.log('Not Connected to UNIMATER');
