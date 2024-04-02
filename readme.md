@@ -6,9 +6,7 @@
 
 ### 3 - Enter your RA and password in the send_keys functions
 <code> 
-##RA
 driver.find_element(By.ID,"auth_user").send_keys('')
-# password
 driver.find_element(By.ID,"auth_pass").send_keys('')
 </code>
 
