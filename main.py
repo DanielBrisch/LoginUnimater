@@ -13,10 +13,7 @@ driver.get('http://192.168.8.1:8002/index.php?zone=unimater&redirurl=http%3A%2F%
 
 time.sleep(2)
 
-
-# adicione o seu RA dentro da funcao send_keys
 driver.find_element(By.ID,"auth_user").send_keys('')
-# adicione sua senha dentro da funcao send_keys
 driver.find_element(By.ID,"auth_pass").send_keys('')
 
 driver.find_element(By.ID,"check").click()
